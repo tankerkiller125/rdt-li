@@ -6,6 +6,8 @@ import Script from 'next/script'
 import { Toaster } from 'sonner'
 import Provider from './provider'
 
+export const runtime = 'edge'
+
 export const metadata: Metadata = {
   title: 'Redirect.link',
   description: 'An open source URL shortener.',
