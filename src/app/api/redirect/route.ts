@@ -3,6 +3,7 @@ import { shortUrls } from '@/lib/db/schema'
 import { smallDate } from '@/lib/utils'
 import { eq } from 'drizzle-orm'
 import { NextResponse } from 'next/server'
+export const runtime = 'edge';
 
 export async function POST(request: Request) {
   try {
