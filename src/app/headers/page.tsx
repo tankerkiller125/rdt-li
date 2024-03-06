@@ -1,4 +1,5 @@
 import { headers as Headers } from 'next/headers'
+export const runtime = 'edge';
 
 const Page = () => {
   let headers: any = Headers()
