@@ -3,7 +3,6 @@ import { shortUrls, users } from '@/lib/db/schema'
 import { eq } from 'drizzle-orm'
 import { headers } from 'next/headers'
 import { NextResponse } from 'next/server'
-export const runtime = 'edge';
 
 const decryptor = async (text: string) => {
   const user = await db
