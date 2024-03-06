@@ -2,6 +2,7 @@
 
 import { signIn } from 'next-auth/react'
 import Link from 'next/link'
+export const runtime = 'edge';
 
 const Page = () => {
   return (
