@@ -3,6 +3,7 @@ import { permanentRedirect } from 'next/navigation'
 import retry from 'p-retry'
 
 export const dynamic = 'force-dynamic'
+export const runtime = 'edge';
 
 async function getData(slug: string) {
   try {
